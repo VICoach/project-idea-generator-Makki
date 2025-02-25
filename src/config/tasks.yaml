@@ -1,0 +1,21 @@
+project_guidance_task:
+  description: >
+    Provide expert guidance to refine the project, improve its structure, and align it with best practices. Offer strategic 
+    recommendations on methodology, technology choices, and execution plans. Help define a clear roadmap for project 
+    development and suggest ways to optimize resources and efficiency.
+  expected_output: >
+    - A structured project roadmap with key milestones and actionable steps.
+    - Suggested tools, frameworks, or methodologies best suited for the project.
+    - Insights on how to enhance innovation, efficiency, and overall project impact.
+  agent: advisor
+
+project_evaluation_task:
+  description: >
+    Conduct a thorough evaluation of the project's concept, structure, feasibility, and execution plan. Assess the strengths 
+    and weaknesses of the proposed idea and identify potential risks or challenges. Provide insights into areas that need 
+    improvement, including research, resource allocation, technical feasibility, and implementation strategy.
+  expected_output: >
+    - A detailed project evaluation report highlighting strengths and weaknesses.
+    - Identified risks and challenges with suggested mitigation strategies.
+    - Recommendations on how to improve technical feasibility and execution.
+  agent: reviewer
